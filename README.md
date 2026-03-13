@@ -2,7 +2,8 @@
 
 ### 10/03/26
 
-# class Pessoa {
+# POO 
+class Pessoa {
     constructor(protected _name : string){ 
     }
     get name():string{
@@ -15,3 +16,11 @@
     // }
 }
 let p1 = new Pessoa('joao')
+
+# BUN
+
+powershell -c "irm bun.sh/install.ps1 | iex"
+
+bun add -d @types/bun   
+
+bun --watch
