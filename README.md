@@ -3,7 +3,7 @@
 ### 10/03/26
 
 # POO 
-class Pessoa {
+    class Pessoa {
     constructor(protected _name : string){ 
     }
     get name():string{
@@ -14,8 +14,8 @@ class Pessoa {
     // constructor(name:string){
     //     this.name = name
     // }
-}
-let p1 = new Pessoa('joao')
+    }    
+    let p1 = new Pessoa('joao')
 
 # BUN
 
