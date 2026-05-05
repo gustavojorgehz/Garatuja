@@ -56,7 +56,7 @@ async function removeItem(index: number) {
 export default { addItem, getItems, updateItem, removeItem };
 ```
 
-#api.turma02.ts
+# api.turma02.ts
 
 ```typescript
 import todo from "./core.ts";
