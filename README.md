@@ -19,18 +19,18 @@
 
 # BUN
 
-curl -fsSL https://bun.sh/install | bash
-
-powershell -c "irm bun.sh/install.ps1 | iex"
-
-bun add -d @types/bun   
+    curl -fsSL https://bun.sh/install | bash
+    
+    powershell -c "irm bun.sh/install.ps1 | iex"
+    
+    bun add -d @types/bun   
 
 bun --watch
 
  # CSS
- :root {
-     --cor-texto: #FFFFFFF;
-     }
+     :root {
+         --cor-texto: #FFFFFFF;
+         }
      
 h1 {
     color: var(--cor-texto);
