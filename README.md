@@ -35,3 +35,9 @@ bun --watch
 h1 {
     color: var(--cor-texto);
     }
+
+ #Clone
+ ### 22/06/26
+      //Após clonar o repositório 
+      cd nome do projeto
+      code .
