@@ -32,11 +32,20 @@ bun --watch
          --cor-texto: #FFFFFFF;
          }
      
-h1 {
-    color: var(--cor-texto);
-    }
+    h1 {
+        color: var(--cor-texto);
+        }
 
- #Clone
+# GIT
+
+    git add .
+
+    git commit -m ""
+
+    git push
+
+ # Clone
+ 
  ### 22/06/26
       //Após clonar o repositório 
       cd nome do projeto
